@@ -66,6 +66,6 @@ We evaluate Arthur Conan Doyle’s *The Hound of the Baskervilles* (originally s
 
 The script produces continuous sliding-window trajectories ($W = 600$, step = $150$) mapped across narrative token space. Localized compression valleys systematically align with historical installment breaks.
 
-![Shannon Entropy Trajectory across Serialized Installments](./output/entropy_plot.png)
+![Shannon Entropy Trajectory across Serialized Installments](./entropy_plot.png)
 
 > **Figure 1:** Shannon entropy $H(W)$ plotted across sequential token progression for *The Hound of the Baskervilles*. Vertical dashed lines denote structural chapter and serial installment breaks, illustrating recurrent boundary drops ($\Delta H < -0.45\text{ bits}$).
